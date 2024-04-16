@@ -1,3 +1,0 @@
-[[build]]
-  ignore = "*.png" # Ignorer les fichiers PNG
-  ignore = ["*.jpeg", "*.JPG", "*.jpg"] # Ignorer les fichiers JPEG, JPG et jpg
