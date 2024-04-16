@@ -176,23 +176,23 @@
 			{
 				"title": "Github Search",
 				"link": "https://githubsearchrepos.netlify.app/",
-				"imgUrl": "./src/assets/githubsearch.png",
+				"imgUrl": "/src/assets/githubsearch.png",
 				"technos": [
 					{
-						"imgUrl": "./src/assets/techno/daisyui.JPG",
+						"imgUrl": "/src/assets/techno/daisyui.JPG",
 						"title": "Daisy UI"
 					},
 					{
-						"imgUrl": "./src/assets/techno/tailwind.JPG",
+						"imgUrl": "/src/assets/techno/tailwind.JPG",
 						"title": "TailWind"
 					},
 					{
-						"imgUrl": "./src/assets/techno/react.JPG",
+						"imgUrl": "/src/assets/techno/react.JPG",
 						"title": "React"
 					},
 
 					{
-						"imgUrl": "./src/assets/techno/next.JPG",
+						"imgUrl": "/src/assets/techno/next.JPG",
 						"title": "Next JS"
 					}
 				]
