@@ -12,7 +12,6 @@ export function Card({ date, diplome, type, name, diplomeName, localisation }) {
 					<p> {date} </p>
 				</div>{" "}
 				<div className="flex items-center dark:bg-theme-white bg-theme-secondary group-hover:bg-theme-primary group-hover:bg-opacity-20 text-sm sm:text-base md:text-base lg:text-xl gap-2 md:gap-3 dark:text-theme-secondary text-theme-white font-semibold lg:px-5 md:px-4 px-3 py-2 rounded-full">
-					{" "}
 					<p> {type} </p>
 				</div>
 			</div>
