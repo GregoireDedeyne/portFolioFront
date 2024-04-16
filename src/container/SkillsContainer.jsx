@@ -4,7 +4,72 @@ import { data } from "../../data.json";
 
 export function SkillsContainer() {
 	const outils = data.outils;
-	const technos = data.techno;
+	const technos = [
+		{
+			imgUrl: "../src/public/assets/bootstrap.jpg",
+			title: "Bootstrap",
+		},
+		{
+			imgUrl: "../src/public/assets/daisyui.jpg",
+			title: "Daisy UI",
+		},
+		{
+			imgUrl: "../src/public/assets/graphql.jpg",
+			title: "GraphQl",
+		},
+		{
+			imgUrl: "../src/public/assets/javascript.jpg",
+			title: "JavaScript",
+		},
+		{
+			imgUrl: "../src/public/assets/jquery.jpg",
+			title: "JQuery",
+		},
+		{
+			imgUrl: "../src/public/assets/materialui.jpg",
+			title: "Materiel UI",
+		},
+		{
+			imgUrl: "../src/public/assets/next.jpg",
+			title: "Next JS",
+		},
+		{
+			imgUrl: "../src/public/assets/nodejs.jpg",
+			title: "Node JS",
+		},
+		{
+			imgUrl: "../src/public/assets/psql.jpg",
+			title: "PSQL",
+		},
+		{
+			imgUrl: "../src/public/assets/react.jpg",
+			title: "React",
+		},
+		{
+			imgUrl: "../src/public/assets/redux.jpg",
+			title: "Redux",
+		},
+		{
+			imgUrl: "../src/public/assets/sass.jpg",
+			title: "SASS",
+		},
+		{
+			imgUrl: "../src/public/assets/sementic.jpg",
+			title: "Sementic UI",
+		},
+		{
+			imgUrl: "../src/public/assets/styledcompo.jpg",
+			title: "Styled-components",
+		},
+		{
+			imgUrl: "../src/public/assets/tailwind.jpg",
+			title: "TailWind",
+		},
+		{
+			imgUrl: "../src/public/assets/typescript.jpg",
+			title: "TypeScript",
+		},
+	];
 	return (
 		<div
 			id="skills"
