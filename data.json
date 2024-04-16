@@ -29,111 +29,111 @@
 		],
 		"socials": [
 			{
-				"imgUrl": "../src/public/assets/socials/linked.JPG",
+				"imgUrl": "../src/public/assets/linked.JPG",
 				"title": "LinkedIn",
 				"link": "https://www.linkedin.com/in/gr%C3%A9goirededeyne/"
 			},
 			{
-				"imgUrl": "../src/public/assets/socials/mail.JPG",
+				"imgUrl": "../src/public/assets/mail.JPG",
 				"title": "Gmail",
 				"link": "mailto:greg.dedeyne@gmail.com"
 			}
 		],
 		"stickers": [
 			{
-				"imgUrl": "../src/public/assets/stickerPict/music.JPG",
+				"imgUrl": "../src/public/assets/music.JPG",
 				"title": "Musique"
 			},
 			{
-				"imgUrl": "../src/public/assets/stickerPict/randonne.JPG",
+				"imgUrl": "../src/public/assets/randonne.JPG",
 				"title": "Randonnée"
 			},
 			{
-				"imgUrl": "../src/public/assets/stickerPict/sport.JPG",
+				"imgUrl": "../src/public/assets/sport.JPG",
 				"title": "Sport"
 			},
 			{
-				"imgUrl": "../src/public/assets/stickerPict/code.JPG",
+				"imgUrl": "../src/public/assets/code.JPG",
 				"title": "code"
 			}
 		],
 		"outils": [
 			{
-				"imgUrl": "../src/public/assets/outils/github.JPG",
+				"imgUrl": "../src/public/assets/github.JPG",
 				"title": "GitHub"
 			},
 			{
-				"imgUrl": "../src/public/assets/outils/notions.JPG",
+				"imgUrl": "../src/public/assets/notions.JPG",
 				"title": "Notion"
 			},
 			{
-				"imgUrl": "../src/public/assets/outils/vsc.JPG",
+				"imgUrl": "../src/public/assets/vsc.JPG",
 				"title": "Virtual Studio Code"
 			}
 		],
 		"techno": [
 			{
-				"imgUrl": "../src/public/assets/techno/bootstrap.JPG",
+				"imgUrl": "../src/public/assets/bootstrap.JPG",
 				"title": "Bootstrap"
 			},
 			{
-				"imgUrl": "../src/public/assets/techno/daisyui.JPG",
+				"imgUrl": "../src/public/assets/daisyui.JPG",
 				"title": "Daisy UI"
 			},
 			{
-				"imgUrl": "../src/public/assets/techno/graphql.JPG",
+				"imgUrl": "../src/public/assets/graphql.JPG",
 				"title": "GraphQl"
 			},
 			{
-				"imgUrl": "../src/public/assets/techno/javascript.JPG",
+				"imgUrl": "../src/public/assets/javascript.JPG",
 				"title": "JavaScript"
 			},
 			{
-				"imgUrl": "../src/public/assets/techno/jquery.JPG",
+				"imgUrl": "../src/public/assets/jquery.JPG",
 				"title": "JQuery"
 			},
 			{
-				"imgUrl": "../src/public/assets/techno/materialui.JPG",
+				"imgUrl": "../src/public/assets/materialui.JPG",
 				"title": "Materiel UI"
 			},
 			{
-				"imgUrl": "../src/public/assets/techno/next.JPG",
+				"imgUrl": "../src/public/assets/next.JPG",
 				"title": "Next JS"
 			},
 			{
-				"imgUrl": "../src/public/assets/techno/nodejs.JPG",
+				"imgUrl": "../src/public/assets/nodejs.JPG",
 				"title": "Node JS"
 			},
 			{
-				"imgUrl": "../src/public/assets/techno/psql.JPG",
+				"imgUrl": "../src/public/assets/psql.JPG",
 				"title": "PSQL"
 			},
 			{
-				"imgUrl": "../src/public/assets/techno/react.JPG",
+				"imgUrl": "../src/public/assets/react.JPG",
 				"title": "React"
 			},
 			{
-				"imgUrl": "../src/public/assets/techno/redux.JPG",
+				"imgUrl": "../src/public/assets/redux.JPG",
 				"title": "Redux"
 			},
 			{
-				"imgUrl": "../src/public/assets/techno/sass.JPG",
+				"imgUrl": "../src/public/assets/sass.JPG",
 				"title": "SASS"
 			},
 			{
-				"imgUrl": "../src/public/assets/techno/sementic.JPG",
+				"imgUrl": "../src/public/assets/sementic.JPG",
 				"title": "Sementic UI"
 			},
 			{
-				"imgUrl": "../src/public/assets/techno/styledcompo.JPG",
+				"imgUrl": "../src/public/assets/styledcompo.JPG",
 				"title": "Styled-components"
 			},
 			{
-				"imgUrl": "../src/public/assets/techno/tailwind.JPG",
+				"imgUrl": "../src/public/assets/tailwind.JPG",
 				"title": "TailWind"
 			},
 			{
-				"imgUrl": "../src/public/assets/techno/typescript.JPG",
+				"imgUrl": "../src/public/assets/typescript.JPG",
 				"title": "TypeScript"
 			}
 		],
@@ -144,31 +144,31 @@
 				"imgUrl": "../src/public/assets/obandito.png",
 				"technos": [
 					{
-						"imgUrl": "../src/public/assets/techno/daisyui.JPG",
+						"imgUrl": "../src/public/assets/daisyui.JPG",
 						"title": "Daisy UI"
 					},
 					{
-						"imgUrl": "../src/public/assets/techno/tailwind.JPG",
+						"imgUrl": "../src/public/assets/tailwind.JPG",
 						"title": "TailWind"
 					},
 					{
-						"imgUrl": "../src/public/assets/techno/react.JPG",
+						"imgUrl": "../src/public/assets/react.JPG",
 						"title": "React"
 					},
 					{
-						"imgUrl": "../src/public/assets/techno/redux.JPG",
+						"imgUrl": "../src/public/assets/redux.JPG",
 						"title": "Redux"
 					},
 					{
-						"imgUrl": "../src/public/assets/techno/psql.JPG",
+						"imgUrl": "../src/public/assets/psql.JPG",
 						"title": "PSQL"
 					},
 					{
-						"imgUrl": "../src/public/assets/techno/next.JPG",
+						"imgUrl": "../src/public/assets/next.JPG",
 						"title": "Next JS"
 					},
 					{
-						"imgUrl": "../src/public/assets/techno/graphql.JPG",
+						"imgUrl": "../src/public/assets/graphql.JPG",
 						"title": "GraphQl"
 					}
 				]
@@ -179,20 +179,20 @@
 				"imgUrl": "../src/public/assets/githubsearch.png",
 				"technos": [
 					{
-						"imgUrl": "../src/public/assets/techno/daisyui.JPG",
+						"imgUrl": "../src/public/assets/daisyui.JPG",
 						"title": "Daisy UI"
 					},
 					{
-						"imgUrl": "../src/public/assets/techno/tailwind.JPG",
+						"imgUrl": "../src/public/assets/tailwind.JPG",
 						"title": "TailWind"
 					},
 					{
-						"imgUrl": "../src/public/assets/techno/react.JPG",
+						"imgUrl": "../src/public/assets/react.JPG",
 						"title": "React"
 					},
 
 					{
-						"imgUrl": "../src/public/assets/techno/next.JPG",
+						"imgUrl": "../src/public/assets/next.JPG",
 						"title": "Next JS"
 					}
 				]
