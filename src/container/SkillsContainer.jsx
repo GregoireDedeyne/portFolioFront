@@ -1,75 +1,10 @@
 import { Skills } from "../components/Techno";
-import figma from "../public/assets/logo-figma.png";
+import figma from "../assets/logo-figma.png";
 import { data } from "../../data.json";
 
 export function SkillsContainer() {
 	const outils = data.outils;
-	const technos = [
-		{
-			imgUrl: "../public/assets/bootstrap.jpg",
-			title: "Bootstrap",
-		},
-		{
-			imgUrl: "../public/assets/daisyui.jpg",
-			title: "Daisy UI",
-		},
-		{
-			imgUrl: "../public/assets/graphql.jpg",
-			title: "GraphQl",
-		},
-		{
-			imgUrl: "../public/assets/javascript.jpg",
-			title: "JavaScript",
-		},
-		{
-			imgUrl: "../public/assets/jquery.jpg",
-			title: "JQuery",
-		},
-		{
-			imgUrl: "../public/assets/materialui.jpg",
-			title: "Materiel UI",
-		},
-		{
-			imgUrl: "../public/assets/next.jpg",
-			title: "Next JS",
-		},
-		{
-			imgUrl: "../public/assets/nodejs.jpg",
-			title: "Node JS",
-		},
-		{
-			imgUrl: "../public/assets/psql.jpg",
-			title: "PSQL",
-		},
-		{
-			imgUrl: "../public/assets/react.jpg",
-			title: "React",
-		},
-		{
-			imgUrl: "../public/assets/redux.jpg",
-			title: "Redux",
-		},
-		{
-			imgUrl: "../public/assets/sass.jpg",
-			title: "SASS",
-		},
-		{
-			imgUrl: "../public/assets/sementic.jpg",
-			title: "Sementic UI",
-		},
-		{
-			imgUrl: "../public/assets/styledcompo.jpg",
-			title: "Styled-components",
-		},
-		{
-			imgUrl: "../public/assets/tailwind.jpg",
-			title: "TailWind",
-		},
-		{
-			imgUrl: "../public/assets/typescript.jpg",
-			title: "TypeScript",
-		},
-	];
+	const technos = data.techno;
 	return (
 		<div
 			id="skills"

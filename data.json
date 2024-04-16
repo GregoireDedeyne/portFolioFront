@@ -29,111 +29,111 @@
 		],
 		"socials": [
 			{
-				"imgUrl": "../src/public/assets/linked.jpg",
+				"imgUrl": "../src/assets/linked.jpg",
 				"title": "LinkedIn",
 				"link": "https://www.linkedin.com/in/gr%C3%A9goirededeyne/"
 			},
 			{
-				"imgUrl": "../src/public/assets/mail.jpg",
+				"imgUrl": "../src/assets/mail.jpg",
 				"title": "Gmail",
 				"link": "mailto:greg.dedeyne@gmail.com"
 			}
 		],
 		"stickers": [
 			{
-				"imgUrl": "../src/public/assets/music.jpg",
+				"imgUrl": "../src/assets/music.jpg",
 				"title": "Musique"
 			},
 			{
-				"imgUrl": "../src/public/assets/randonne.jpg",
+				"imgUrl": "../src/assets/randonne.jpg",
 				"title": "Randonnée"
 			},
 			{
-				"imgUrl": "../src/public/assets/sport.jpg",
+				"imgUrl": "../src/assets/sport.jpg",
 				"title": "Sport"
 			},
 			{
-				"imgUrl": "../src/public/assets/code.jpg",
+				"imgUrl": "../src/assets/code.jpg",
 				"title": "code"
 			}
 		],
 		"outils": [
 			{
-				"imgUrl": "../src/public/assets/github.jpg",
+				"imgUrl": "../src/assets/github.jpg",
 				"title": "GitHub"
 			},
 			{
-				"imgUrl": "../src/public/assets/notions.jpg",
+				"imgUrl": "../src/assets/notions.jpg",
 				"title": "Notion"
 			},
 			{
-				"imgUrl": "../src/public/assets/vsc.jpg",
+				"imgUrl": "../src/assets/vsc.jpg",
 				"title": "Virtual Studio Code"
 			}
 		],
 		"techno": [
 			{
-				"imgUrl": "../src/public/assets/bootstrap.jpg",
+				"imgUrl": "../src/assets/bootstrap.jpg",
 				"title": "Bootstrap"
 			},
 			{
-				"imgUrl": "../src/public/assets/daisyui.jpg",
+				"imgUrl": "../src/assets/daisyui.jpg",
 				"title": "Daisy UI"
 			},
 			{
-				"imgUrl": "../src/public/assets/graphql.jpg",
+				"imgUrl": "../src/assets/graphql.jpg",
 				"title": "GraphQl"
 			},
 			{
-				"imgUrl": "../src/public/assets/javascript.jpg",
+				"imgUrl": "../src/assets/javascript.jpg",
 				"title": "JavaScript"
 			},
 			{
-				"imgUrl": "../src/public/assets/jquery.jpg",
+				"imgUrl": "../src/assets/jquery.jpg",
 				"title": "JQuery"
 			},
 			{
-				"imgUrl": "../src/public/assets/materialui.jpg",
+				"imgUrl": "../src/assets/materialui.jpg",
 				"title": "Materiel UI"
 			},
 			{
-				"imgUrl": "../src/public/assets/next.jpg",
+				"imgUrl": "../src/assets/next.jpg",
 				"title": "Next JS"
 			},
 			{
-				"imgUrl": "../src/public/assets/nodejs.jpg",
+				"imgUrl": "../src/assets/nodejs.jpg",
 				"title": "Node JS"
 			},
 			{
-				"imgUrl": "../src/public/assets/psql.jpg",
+				"imgUrl": "../src/assets/psql.jpg",
 				"title": "PSQL"
 			},
 			{
-				"imgUrl": "../src/public/assets/react.jpg",
+				"imgUrl": "../src/assets/react.jpg",
 				"title": "React"
 			},
 			{
-				"imgUrl": "../src/public/assets/redux.jpg",
+				"imgUrl": "../src/assets/redux.jpg",
 				"title": "Redux"
 			},
 			{
-				"imgUrl": "../src/public/assets/sass.jpg",
+				"imgUrl": "../src/assets/sass.jpg",
 				"title": "SASS"
 			},
 			{
-				"imgUrl": "../src/public/assets/sementic.jpg",
+				"imgUrl": "../src/assets/sementic.jpg",
 				"title": "Sementic UI"
 			},
 			{
-				"imgUrl": "../src/public/assets/styledcompo.jpg",
+				"imgUrl": "../src/assets/styledcompo.jpg",
 				"title": "Styled-components"
 			},
 			{
-				"imgUrl": "../src/public/assets/tailwind.jpg",
+				"imgUrl": "../src/assets/tailwind.jpg",
 				"title": "TailWind"
 			},
 			{
-				"imgUrl": "../src/public/assets/typescript.jpg",
+				"imgUrl": "../src/assets/typescript.jpg",
 				"title": "TypeScript"
 			}
 		],
@@ -141,34 +141,34 @@
 			{
 				"title": "O'bandito",
 				"link": "https://main--obandito.netlify.app/",
-				"imgUrl": "../src/public/assets/obandito.png",
+				"imgUrl": "../src/assets/obandito.png",
 				"technos": [
 					{
-						"imgUrl": "../src/public/assets/daisyui.jpg",
+						"imgUrl": "../src/assets/daisyui.jpg",
 						"title": "Daisy UI"
 					},
 					{
-						"imgUrl": "../src/public/assets/tailwind.jpg",
+						"imgUrl": "../src/assets/tailwind.jpg",
 						"title": "TailWind"
 					},
 					{
-						"imgUrl": "../src/public/assets/react.jpg",
+						"imgUrl": "../src/assets/react.jpg",
 						"title": "React"
 					},
 					{
-						"imgUrl": "../src/public/assets/redux.jpg",
+						"imgUrl": "../src/assets/redux.jpg",
 						"title": "Redux"
 					},
 					{
-						"imgUrl": "../src/public/assets/psql.jpg",
+						"imgUrl": "../src/assets/psql.jpg",
 						"title": "PSQL"
 					},
 					{
-						"imgUrl": "../src/public/assets/next.jpg",
+						"imgUrl": "../src/assets/next.jpg",
 						"title": "Next JS"
 					},
 					{
-						"imgUrl": "../src/public/assets/graphql.jpg",
+						"imgUrl": "../src/assets/graphql.jpg",
 						"title": "GraphQl"
 					}
 				]
@@ -176,23 +176,23 @@
 			{
 				"title": "Github Search",
 				"link": "https://githubsearchrepos.netlify.app/",
-				"imgUrl": "../src/public/assets/githubsearch.png",
+				"imgUrl": "../src/assets/githubsearch.png",
 				"technos": [
 					{
-						"imgUrl": "../src/public/assets/daisyui.jpg",
+						"imgUrl": "../src/assets/daisyui.jpg",
 						"title": "Daisy UI"
 					},
 					{
-						"imgUrl": "../src/public/assets/tailwind.jpg",
+						"imgUrl": "../src/assets/tailwind.jpg",
 						"title": "TailWind"
 					},
 					{
-						"imgUrl": "../src/public/assets/react.jpg",
+						"imgUrl": "../src/assets/react.jpg",
 						"title": "React"
 					},
 
 					{
-						"imgUrl": "../src/public/assets/next.jpg",
+						"imgUrl": "../src/assets/next.jpg",
 						"title": "Next JS"
 					}
 				]
