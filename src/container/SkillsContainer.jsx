@@ -6,67 +6,67 @@ export function SkillsContainer() {
 	const outils = data.outils;
 	const technos = [
 		{
-			imgUrl: "../src/public/assets/bootstrap.jpg",
+			imgUrl: "../public/assets/bootstrap.jpg",
 			title: "Bootstrap",
 		},
 		{
-			imgUrl: "../src/public/assets/daisyui.jpg",
+			imgUrl: "../public/assets/daisyui.jpg",
 			title: "Daisy UI",
 		},
 		{
-			imgUrl: "../src/public/assets/graphql.jpg",
+			imgUrl: "../public/assets/graphql.jpg",
 			title: "GraphQl",
 		},
 		{
-			imgUrl: "../src/public/assets/javascript.jpg",
+			imgUrl: "../public/assets/javascript.jpg",
 			title: "JavaScript",
 		},
 		{
-			imgUrl: "../src/public/assets/jquery.jpg",
+			imgUrl: "../public/assets/jquery.jpg",
 			title: "JQuery",
 		},
 		{
-			imgUrl: "../src/public/assets/materialui.jpg",
+			imgUrl: "../public/assets/materialui.jpg",
 			title: "Materiel UI",
 		},
 		{
-			imgUrl: "../src/public/assets/next.jpg",
+			imgUrl: "../public/assets/next.jpg",
 			title: "Next JS",
 		},
 		{
-			imgUrl: "../src/public/assets/nodejs.jpg",
+			imgUrl: "../public/assets/nodejs.jpg",
 			title: "Node JS",
 		},
 		{
-			imgUrl: "../src/public/assets/psql.jpg",
+			imgUrl: "../public/assets/psql.jpg",
 			title: "PSQL",
 		},
 		{
-			imgUrl: "../src/public/assets/react.jpg",
+			imgUrl: "../public/assets/react.jpg",
 			title: "React",
 		},
 		{
-			imgUrl: "../src/public/assets/redux.jpg",
+			imgUrl: "../public/assets/redux.jpg",
 			title: "Redux",
 		},
 		{
-			imgUrl: "../src/public/assets/sass.jpg",
+			imgUrl: "../public/assets/sass.jpg",
 			title: "SASS",
 		},
 		{
-			imgUrl: "../src/public/assets/sementic.jpg",
+			imgUrl: "../public/assets/sementic.jpg",
 			title: "Sementic UI",
 		},
 		{
-			imgUrl: "../src/public/assets/styledcompo.jpg",
+			imgUrl: "../public/assets/styledcompo.jpg",
 			title: "Styled-components",
 		},
 		{
-			imgUrl: "../src/public/assets/tailwind.jpg",
+			imgUrl: "../public/assets/tailwind.jpg",
 			title: "TailWind",
 		},
 		{
-			imgUrl: "../src/public/assets/typescript.jpg",
+			imgUrl: "../public/assets/typescript.jpg",
 			title: "TypeScript",
 		},
 	];
