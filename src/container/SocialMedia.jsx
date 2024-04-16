@@ -1,5 +1,5 @@
 import { SocialLink } from "../components/socialLink";
-import test from "../assets/test.jpg";
+import test from "../public/assets/test.jpg";
 import { data } from "../../data.json";
 
 export function SocialMediaContainer() {

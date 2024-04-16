@@ -1,5 +1,5 @@
 import { Skills } from "../components/Techno";
-import figma from "../assets/logo-figma.png";
+import figma from "../public/assets/logo-figma.png";
 import { data } from "../../data.json";
 
 export function SkillsContainer() {

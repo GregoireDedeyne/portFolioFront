@@ -1,4 +1,4 @@
-import gregprofil from "../assets/gregprofil.jpg";
+import gregprofil from "../public/assets/gregprofil.jpg";
 import { Sticker } from "../components/sticker";
 import { data } from "../../data.json";
 

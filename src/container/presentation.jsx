@@ -1,4 +1,4 @@
-import test from "../assets/devdev.jpeg";
+import test from "../public/assets/devdev.jpeg";
 
 export function Presentation() {
 	return (
