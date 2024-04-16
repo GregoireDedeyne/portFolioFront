@@ -1,4 +1,4 @@
-import gregprofil from "../../assets/gregprofil.jpg";
+import gregprofil from "/images/gregprofil.jpg";
 
 export function Header() {
 	return (

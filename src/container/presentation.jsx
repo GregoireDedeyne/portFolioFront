@@ -1,4 +1,4 @@
-import test from "../assets/devdev.jpeg";
+import test from "/images/devdev.jpeg";
 
 export function Presentation() {
 	return (
@@ -31,7 +31,7 @@ export function Presentation() {
 					</div>
 					<div className="mt-6 flex items-center justify-center flex-wrap gap-3 lg:gap-5 mb-10">
 						<a
-							href="./assets/CV/CV-Grégoire-Dedeyne-Dev-Web.pdf"
+							href="/images/CV-Grégoire-Dedeyne-Dev-Web.pdf"
 							download={"Gregoire Dedeyne Cv.pdf"}
 							target="_blank"
 							className="p-5 w-48 bg-theme-primary mt-12 hover:bg-theme-secondary hover:bg-opacity-80 hover:text-theme-primary text-black text-2xl rounded-3xl"
