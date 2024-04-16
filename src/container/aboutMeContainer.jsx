@@ -1,9 +1,14 @@
 import gregprofil from "../assets/gregprofil.jpg";
 import { Sticker } from "../components/sticker";
+import { data } from "../../data.json";
 
 export function AboutMeContainer() {
+	const stickers = data.stickers;
 	return (
-		<div className="w-full dark:bg-theme-secondary bg-theme-white border-t dark:border-theme-primary border-theme-secondary dark:border-opacity-10 border-opacity-10">
+		<div
+			id="about-me"
+			className="w-full dark:bg-theme-secondary bg-theme-white border-t dark:border-theme-primary border-theme-secondary dark:border-opacity-10 border-opacity-10"
+		>
 			<div className="container mx-auto w-full py-[40px] md:py-[60px] lg:py-[80px] flex flex-col items-center">
 				{" "}
 				<div className="relative w-full whitespace-nowrap text-center">
@@ -42,30 +47,32 @@ export function AboutMeContainer() {
 								</div>
 							</div>{" "}
 							<div className="w-full flex items-center gap-2 md:gap-4 flex-wrap">
-								<Sticker />
-								<Sticker />
-								<Sticker />
-								<Sticker />
+								{stickers.map((sticker) => (
+									<Sticker
+										imgUrl={sticker.imgUrl}
+										title={sticker.title}
+									/>
+								))}
 							</div>
 						</div>
 						<div className="w-full grid grid-cols-2 gap-3 lg:gap-5">
 							{" "}
 							<div className="w-full flex flex-col items-center justify-center text-center dark:bg-theme-white bg-theme-secondary dark:bg-opacity-5 bg-opacity-5 rounded-[50px] sm:rounded-[80px] md:rounded-[60px] lg:rounded-[75px] xl:rounded-[100px] p-6 sm:p-8 md:p-10 xl:p-12 aspect-square">
 								<h3 className="bg-gradient-to-b text-transparent dark:from-theme-primary from-theme-secondary dark:to-theme-secondary to-theme-white bg-clip-text font-bold text-4xl sm:text-6xl md:text-[2.7rem] lg:text-6xl xl:text-7xl">
-									1+
+									6+
 								</h3>
 								<h3 className="dark:text-theme-white text-theme-secondary font-bold text-xl sm:text-3xl md:text-xl lg:text-3xl xl:text-4xl leading-6 sm:leading-8">
 									{" "}
-									Année d'expérience{" "}
+									mois d'expérience{" "}
 								</h3>
 							</div>{" "}
 							<div className="w-full flex flex-col items-center justify-center text-center dark:bg-theme-white bg-theme-secondary dark:bg-opacity-5 bg-opacity-5 rounded-[50px] sm:rounded-[80px] md:rounded-[60px] lg:rounded-[75px] xl:rounded-[100px] p-6 sm:p-8 md:p-10 xl:p-12 aspect-square">
 								<h3 className="bg-gradient-to-b text-transparent dark:from-theme-primary from-theme-secondary dark:to-theme-secondary to-theme-white bg-clip-text font-bold text-4xl sm:text-6xl md:text-[2.7rem] lg:text-6xl xl:text-7xl">
-									1+
+									4
 								</h3>
 								<h3 className="dark:text-theme-white text-theme-secondary font-bold text-xl sm:text-3xl md:text-xl lg:text-3xl xl:text-4xl leading-6 sm:leading-8">
 									{" "}
-									Année d'expérience{" "}
+									Projets réalisés{" "}
 								</h3>
 							</div>{" "}
 						</div>

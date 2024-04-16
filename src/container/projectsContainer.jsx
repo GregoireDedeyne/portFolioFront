@@ -1,8 +1,12 @@
 import { ProjectCard } from "../components/projectCard";
-
+import { data } from "../../data.json";
 export function ProjectsContainer() {
+	const projets = data.projets;
 	return (
-		<div className="w-full dark:bg-theme-secondary bg-theme-white border-t border-theme-primary border-opacity-10">
+		<div
+			id="projets"
+			className="w-full dark:bg-theme-secondary bg-theme-white border-t border-theme-primary border-opacity-10"
+		>
 			{" "}
 			<div className="container mx-auto w-full py-[40px] md:py-[60px] lg:py-[80px] flex flex-col items-center">
 				{" "}
@@ -16,8 +20,14 @@ export function ProjectsContainer() {
 					</h3>
 				</div>
 				<div className="w-full flex flex-col items-start gap-4 lg:gap-6 mt-16">
-					{" "}
-					<ProjectCard />
+					{projets.map((projet) => (
+						<ProjectCard
+							imgUrl={projet.imgUrl}
+							title={projet.title}
+							technos={projet.technos}
+							link={projet.link}
+						/>
+					))}
 				</div>
 				<a
 					href="https://github.com/GregoireDedeyne"

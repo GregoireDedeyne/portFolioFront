@@ -1,8 +1,15 @@
 import { Skills } from "../components/Techno";
+import figma from "../assets/logo-figma.png";
+import { data } from "../../data.json";
 
 export function SkillsContainer() {
+	const outils = data.outils;
+	const technos = data.techno;
 	return (
-		<div className="w-full dark:bg-theme-secondary bg-theme-white border-t dark:border-theme-primary border-theme-secondary dark:border-opacity-10 border-opacity-10">
+		<div
+			id="skills"
+			className="w-full dark:bg-theme-secondary bg-theme-white border-t dark:border-theme-primary border-theme-secondary dark:border-opacity-10 border-opacity-10"
+		>
 			{" "}
 			<div className="container mx-auto w-full py-[40px] md:py-[60px] lg:py-[80px] flex flex-col items-center gap-14">
 				{" "}
@@ -31,7 +38,7 @@ export function SkillsContainer() {
 				</div>
 				<div className="w-full flex items-center justify-center gap-2 sm:gap-3 md:gap-5 flex-wrap">
 					{" "}
-					<Skills />
+					<Skills imgUrl={figma} title={"Figma"} />
 				</div>
 				<div className="w-full flex flex-col items-center gap-3 lg:gap-10 mt-8">
 					<div className="relative w-full whitespace-nowrap flex flex-col items-center text-center">
@@ -45,14 +52,11 @@ export function SkillsContainer() {
 						</h3>
 					</div>
 				</div>
-				<div className="w-full flex items-center justify-center gap-2 sm:gap-3 md:gap-5 flex-wrap">
+				<div className="w-3/5 flex items-center justify-center gap-2 sm:gap-3 md:gap-5 flex-wrap">
 					{" "}
-					<Skills />
-					<Skills />
-					<Skills />
-					<Skills />
-					<Skills />
-					<Skills />
+					{technos.map((techno) => (
+						<Skills imgUrl={techno.imgUrl} title={techno.title} />
+					))}
 				</div>
 				<div className="w-full flex flex-col items-center gap-3 lg:gap-10 mt-8">
 					<div className="relative w-full whitespace-nowrap flex flex-col items-center text-center">
@@ -66,13 +70,9 @@ export function SkillsContainer() {
 						</h3>
 					</div>
 					<div className="w-full flex items-center justify-center gap-2 sm:gap-3 md:gap-5 flex-wrap">
-						{" "}
-						<Skills />
-						<Skills />
-						<Skills />
-						<Skills />
-						<Skills />
-						<Skills />
+						{outils.map((outil) => (
+							<Skills imgUrl={outil.imgUrl} title={outil.title} />
+						))}
 					</div>
 				</div>
 			</div>

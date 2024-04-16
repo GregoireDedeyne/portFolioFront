@@ -1,6 +1,4 @@
-import figma from "../../assets/logo-figma.png";
-
-export function Skills() {
+export function Skills({ imgUrl, title }) {
 	return (
 		<div
 			width="46"
@@ -10,11 +8,11 @@ export function Skills() {
 		>
 			<img
 				className="w-7 sm:w-10 lg:w-11 xl:w-auto object-contain hidden dark:block"
-				src={figma}
+				src={imgUrl}
 			/>
-			<p className="text-xs sm:text-base md:text-lg lg:text-xl xl:text-2xl font-medium text-black">
+			<p className="text-xs sm:text-base md:text-lg lg:text-xl xl:text-2xl font-medium text-black pr-1">
 				{" "}
-				Figma{" "}
+				{title}{" "}
 			</p>
 		</div>
 	);

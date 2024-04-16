@@ -1,6 +1,10 @@
 import { SocialLink } from "../components/socialLink";
 import test from "../assets/test.jpg";
+import { data } from "../../data.json";
+
 export function SocialMediaContainer() {
+	const socials = data.socials;
+
 	return (
 		<div className="w-full dark:bg-theme-secondary bg-theme-white border-t dark:border-theme-primary border-theme-secondary dark:border-opacity-10 border-opacity-10">
 			<div className="container mx-auto w-full py-[40px] md:py-[60px] lg:py-[80px] flex flex-col items-center">
@@ -17,9 +21,13 @@ export function SocialMediaContainer() {
 				</div>
 				<div className="w-full flex text-center flex-wrap justify-center items-center gap-2 md:gap-3 lg:gap-8 mt-6 sm:mt-10 md:mt-16 p-8">
 					{" "}
-					<SocialLink />
-					<SocialLink />
-					<SocialLink />
+					{socials.map((social) => (
+						<SocialLink
+							link={social.link}
+							title={social.title}
+							imgUrl={social.imgUrl}
+						/>
+					))}
 				</div>
 				<img
 					src={test}

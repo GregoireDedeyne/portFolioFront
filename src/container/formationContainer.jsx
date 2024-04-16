@@ -1,8 +1,13 @@
 import { Card } from "../components/card";
-
+import { data } from "../../data.json";
 export function FormationContainer() {
+	const formation = data.formation;
+
 	return (
-		<div className="w-full dark:bg-theme-secondary bg-theme-white border-t dark:border-theme-primary border-theme-secondary dark:border-opacity-10 border-opacity-10">
+		<div
+			id="formations"
+			className="w-full dark:bg-theme-secondary bg-theme-white border-t dark:border-theme-primary border-theme-secondary dark:border-opacity-10 border-opacity-10"
+		>
 			<div className="container mx-auto w-full py-[40px] md:py-[60px] lg:py-[80px] flex flex-col items-center">
 				{" "}
 				<div className="relative w-full whitespace-nowrap text-center">
@@ -16,9 +21,17 @@ export function FormationContainer() {
 					</h3>
 				</div>
 				<div className="w-full grid grid-cols-1 md:grid-cols-2 gap-3 lg:gap-6 mt-16">
-					{" "}
-					<Card />
-					<Card />
+					{formation.map((item, index) => (
+						<Card
+							key={index}
+							date={item.date}
+							diplome={item.diplome}
+							type={item.type}
+							name={item.name}
+							diplomeName={item.diplomeName}
+							localisation={item.localisation}
+						/>
+					))}
 				</div>
 			</div>
 		</div>

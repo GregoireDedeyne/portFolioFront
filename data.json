@@ -1,0 +1,202 @@
+{
+	"data": {
+		"formation": [
+			{
+				"date": "2012-2018",
+				"diplome": "Bachelier",
+				"type": "Bac +3",
+				"name": "Formation diététique",
+				"diplomeName": "Diplôme de diététicien",
+				"localisation": "Tournai, Belgique"
+			},
+			{
+				"date": "2023-2024",
+				"diplome": "Licence",
+				"type": "Bac +2",
+				"name": "Formation en développement web",
+				"diplomeName": "Licence en informatique",
+				"localisation": "O'clock, France"
+			}
+		],
+
+		"experience": [
+			{
+				"date": "2024-2026",
+				"type": "Stage",
+				"name": "Développeur web junior",
+				"localisation": "Paris, France"
+			}
+		],
+		"socials": [
+			{
+				"imgUrl": "/src/assets/socials/linked.JPG",
+				"title": "LinkedIn",
+				"link": "https://www.linkedin.com/in/gr%C3%A9goirededeyne/"
+			},
+			{
+				"imgUrl": "/src/assets/socials/mail.JPG",
+				"title": "Gmail",
+				"link": "mailto:greg.dedeyne@gmail.com"
+			}
+		],
+		"stickers": [
+			{
+				"imgUrl": "/src/assets/stickerPict/music.JPG",
+				"title": "Musique"
+			},
+			{
+				"imgUrl": "/src/assets/stickerPict/randonne.JPG",
+				"title": "Randonnée"
+			},
+			{
+				"imgUrl": "/src/assets/stickerPict/sport.JPG",
+				"title": "Sport"
+			},
+			{
+				"imgUrl": "/src/assets/stickerPict/code.JPG",
+				"title": "code"
+			}
+		],
+		"outils": [
+			{
+				"imgUrl": "/src/assets/outils/github.JPG",
+				"title": "GitHub"
+			},
+			{
+				"imgUrl": "/src/assets/outils/notions.JPG",
+				"title": "Notion"
+			},
+			{
+				"imgUrl": "/src/assets/outils/vsc.JPG",
+				"title": "Virtual Studio Code"
+			}
+		],
+		"techno": [
+			{
+				"imgUrl": "/src/assets/techno/bootstrap.JPG",
+				"title": "Bootstrap"
+			},
+			{
+				"imgUrl": "/src/assets/techno/daisyui.JPG",
+				"title": "Daisy UI"
+			},
+			{
+				"imgUrl": "/src/assets/techno/graphql.JPG",
+				"title": "GraphQl"
+			},
+			{
+				"imgUrl": "/src/assets/techno/javascript.JPG",
+				"title": "JavaScript"
+			},
+			{
+				"imgUrl": "/src/assets/techno/jquery.JPG",
+				"title": "JQuery"
+			},
+			{
+				"imgUrl": "/src/assets/techno/materialui.JPG",
+				"title": "Materiel UI"
+			},
+			{
+				"imgUrl": "/src/assets/techno/next.JPG",
+				"title": "Next JS"
+			},
+			{
+				"imgUrl": "/src/assets/techno/nodejs.JPG",
+				"title": "Node JS"
+			},
+			{
+				"imgUrl": "/src/assets/techno/psql.JPG",
+				"title": "PSQL"
+			},
+			{
+				"imgUrl": "/src/assets/techno/react.JPG",
+				"title": "React"
+			},
+			{
+				"imgUrl": "/src/assets/techno/redux.JPG",
+				"title": "Redux"
+			},
+			{
+				"imgUrl": "/src/assets/techno/sass.JPG",
+				"title": "SASS"
+			},
+			{
+				"imgUrl": "/src/assets/techno/sementic.JPG",
+				"title": "Sementic UI"
+			},
+			{
+				"imgUrl": "/src/assets/techno/styledcompo.JPG",
+				"title": "Styled-components"
+			},
+			{
+				"imgUrl": "/src/assets/techno/tailwind.JPG",
+				"title": "TailWind"
+			},
+			{
+				"imgUrl": "/src/assets/techno/typescript.JPG",
+				"title": "TypeScript"
+			}
+		],
+		"projets": [
+			{
+				"title": "O'bandito",
+				"link": "https://main--obandito.netlify.app/",
+				"imgUrl": "/src/assets/obandito.png",
+				"technos": [
+					{
+						"imgUrl": "/src/assets/techno/daisyui.JPG",
+						"title": "Daisy UI"
+					},
+					{
+						"imgUrl": "/src/assets/techno/tailwind.JPG",
+						"title": "TailWind"
+					},
+					{
+						"imgUrl": "/src/assets/techno/react.JPG",
+						"title": "React"
+					},
+					{
+						"imgUrl": "/src/assets/techno/redux.JPG",
+						"title": "Redux"
+					},
+					{
+						"imgUrl": "/src/assets/techno/psql.JPG",
+						"title": "PSQL"
+					},
+					{
+						"imgUrl": "/src/assets/techno/next.JPG",
+						"title": "Next JS"
+					},
+					{
+						"imgUrl": "/src/assets/techno/graphql.JPG",
+						"title": "GraphQl"
+					}
+				]
+			},
+			{
+				"title": "Github Search",
+				"link": "https://githubsearchrepos.netlify.app/",
+				"imgUrl": "/src/assets/githubsearch.png",
+				"technos": [
+					{
+						"imgUrl": "/src/assets/techno/daisyui.JPG",
+						"title": "Daisy UI"
+					},
+					{
+						"imgUrl": "/src/assets/techno/tailwind.JPG",
+						"title": "TailWind"
+					},
+					{
+						"imgUrl": "/src/assets/techno/react.JPG",
+						"title": "React"
+					},
+
+					{
+						"imgUrl": "/src/assets/techno/next.JPG",
+						"title": "Next JS"
+					}
+				]
+			}
+		]
+	}
+}
