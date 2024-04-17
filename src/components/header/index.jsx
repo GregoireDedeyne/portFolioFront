@@ -1,4 +1,4 @@
-import gregprofil from "/images/gregprofil.jpg";
+import gregprofil from "/images/profil.JPG?url";
 import { useState } from "react";
 
 export function Header() {

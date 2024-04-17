@@ -21,7 +21,10 @@ export function Presentation() {
 					</div>{" "}
 					<p className="text-lg sm:text-xl md:text-2xl lg:text-3xl mt-2 font-light dark:text-theme-white text-theme-secondary">
 						Un
-						<span className="font-bold"> Developer Front-end</span>
+						<span className="font-bold">
+							{" "}
+							Développeur Front-end
+						</span>
 					</p>
 					<div className="relative mt-8 md:mt-16 lg:mt-20">
 						<img
@@ -31,7 +34,7 @@ export function Presentation() {
 					</div>
 					<div className="mt-6 flex items-center justify-center flex-wrap gap-3 lg:gap-5 mb-10">
 						<a
-							href="/images/CV-Grégoire-Dedeyne-Dev-Web.pdf"
+							href="/images/CV.pdf?url"
 							download={"Gregoire Dedeyne Cv.pdf"}
 							target="_blank"
 							className="p-5 w-48 bg-theme-primary mt-12 hover:bg-theme-secondary hover:bg-opacity-80 hover:text-theme-primary text-black text-2xl rounded-3xl"

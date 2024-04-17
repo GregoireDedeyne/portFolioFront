@@ -1,4 +1,4 @@
-import gregprofil from "/images/gregprofil.jpg";
+import gregprofil from "/images/profil.JPG?url";
 import { Sticker } from "../components/sticker";
 import { data } from "../../data.json";
 
@@ -14,11 +14,11 @@ export function AboutMeContainer() {
 				<div className="relative w-full whitespace-nowrap text-center">
 					<h2 className="opacity-10 text-4xl sm:text-5xl md:text-6xl text-transparent lg:text-7xl font-bold dark:font-outline-2-primary font-outline-2-secondary ">
 						{" "}
-						à propos de moi{" "}
+						A propos de moi{" "}
 					</h2>
 					<h3 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 dark:text-theme-primary text-theme-secondary">
 						{" "}
-						à propos de moi{" "}
+						A propos de moi{" "}
 					</h3>
 				</div>
 				<div className="w-full flex flex-col items-center gap-3 lg:gap-8 mt-16">
@@ -38,11 +38,11 @@ export function AboutMeContainer() {
 									{" "}
 									<h2 className="opacity-10 text-4xl sm:text-5xl md:text-6xl text-transparent lg:text-7xl font-bold dark:font-outline-2-primary font-outline-2-secondary ">
 										{" "}
-										J'adore{" "}
+										HOBBIES{" "}
 									</h2>
 									<h3 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 dark:text-theme-primary text-theme-secondary">
 										{" "}
-										J'adore{" "}
+										HOBBIES{" "}
 									</h3>
 								</div>
 							</div>{" "}

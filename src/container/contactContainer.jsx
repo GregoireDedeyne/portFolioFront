@@ -1,4 +1,4 @@
-import gregprofil from "/images/gregprofil.jpg";
+import gregprofil from "/images/profil.JPG?url";
 
 export function ContactContainer() {
 	return (
@@ -37,7 +37,7 @@ export function ContactContainer() {
 					<div className="flex items-center flex-wrap justify-center gap-3">
 						{" "}
 						<a
-							href="/images/CV-Grégoire-Dedeyne-Dev-Web.pdf"
+							href="/images/CV.pdf?url"
 							download={"Gregoire Dedeyne Cv.pdf"}
 							target="_blank"
 							className="p-5 w-48 bg-theme-primary mt-12 hover:bg-theme-secondary hover:bg-opacity-80 hover:text-theme-primary text-black text-2xl rounded-3xl"
