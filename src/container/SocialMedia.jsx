@@ -26,6 +26,7 @@ export function SocialMediaContainer() {
 							link={social.link}
 							title={social.title}
 							imgUrl={social.imgUrl}
+							ci={social.Ci}
 						/>
 					))}
 				</div>

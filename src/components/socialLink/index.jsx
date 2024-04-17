@@ -1,4 +1,21 @@
-export function SocialLink({ link, title, imgUrl }) {
+import { CiLinkedin } from "react-icons/ci";
+import { SiGmail } from "react-icons/si";
+
+export function SocialLink({ link, title, imgUrl, ci }) {
+	let IconComponent = "null";
+
+	// Sélectionnez dynamiquement le composant d'icône en fonction de la valeur de `{ci}`
+	switch (ci) {
+		case "CiLinkedin":
+			IconComponent = CiLinkedin;
+			break;
+		case "SiGmail":
+			IconComponent = SiGmail;
+			break;
+		// Ajoutez d'autres cas pour chaque icône que vous voulez gérer
+		default:
+			break;
+	}
 	return (
 		<a
 			href={link}
@@ -9,10 +26,11 @@ export function SocialLink({ link, title, imgUrl }) {
 				<img
 					loading="lazy"
 					src={imgUrl}
-					className="w-12 sm:w-14 md:w-16 lg:w-20 object-contain max-h-[60px] max-w-[60px]"
+					className="w-12 sm:w-14 md:w-16 lg:w-20 hidden dark:block object-contain max-h-[60px] max-w-[60px]"
 				/>{" "}
+				<IconComponent className="min-h-[60px] min-w-[60px] dark:hidden" />
 			</div>
-			<h4 className="text-base hidden sm:block sm:text-2xl md:text-3xl lg:text-4xl font-bold ">
+			<h4 className="text-base text-white dark:text-black hidden sm:block sm:text-2xl md:text-3xl lg:text-4xl font-bold ">
 				{title}{" "}
 			</h4>
 		</a>

@@ -51,6 +51,7 @@ export function AboutMeContainer() {
 									<Sticker
 										imgUrl={sticker.imgUrl}
 										title={sticker.title}
+										imgUrlBlack={sticker.imgUrlBlack}
 									/>
 								))}
 							</div>

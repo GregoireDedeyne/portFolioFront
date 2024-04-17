@@ -31,109 +31,144 @@
 			{
 				"imgUrl": "/images/linked.jpg",
 				"title": "LinkedIn",
-				"link": "https://www.linkedin.com/in/gr%C3%A9goirededeyne/"
+				"link": "https://www.linkedin.com/in/gr%C3%A9goirededeyne/",
+				"Ci": "CiLinkedin"
 			},
 			{
 				"imgUrl": "/images/mail.jpg",
 				"title": "Gmail",
-				"link": "mailto:greg.dedeyne@gmail.com"
+				"link": "mailto:greg.dedeyne@gmail.com",
+				"Ci": "SiGmail"
 			}
 		],
 		"stickers": [
 			{
 				"imgUrl": "/images/music.jpg",
+				"imgUrlBlack": "/images/musicblack.JPG",
 				"title": "Musique"
 			},
 			{
 				"imgUrl": "/images/randonne.jpg",
+				"imgUrlBlack": "/images/randonneblack.JPG",
 				"title": "Randonnée"
 			},
 			{
 				"imgUrl": "/images/sport.jpg",
+				"imgUrlBlack": "/images/sportblack.JPG",
 				"title": "Sport"
 			},
 			{
 				"imgUrl": "/images/code.jpg",
+				"imgUrlBlack": "/images/codeblack.JPG",
 				"title": "code"
 			}
 		],
 		"outils": [
 			{
 				"imgUrl": "/images/github.jpg",
+				"imgUrlBlack": "/images/githubb.JPG",
 				"title": "GitHub"
 			},
 			{
 				"imgUrl": "/images/notions.jpg",
+				"imgUrlBlack": "/images/notionb.JPG",
 				"title": "Notion"
 			},
 			{
 				"imgUrl": "/images/vsc.jpg",
+				"imgUrlBlack": "/images/vscb.JPG",
 				"title": "Virtual Studio Code"
 			}
 		],
 		"techno": [
 			{
 				"imgUrl": "/images/bootstrap.jpg",
+				"imgUrlBlack": "/images/btblack.jpg",
 				"title": "Bootstrap"
 			},
 			{
 				"imgUrl": "/images/daisyui.jpg",
+				"imgUrlBlack": "/images/dblack.JPG",
 				"title": "Daisy UI"
 			},
 			{
 				"imgUrl": "/images/graphql.jpg",
+				"imgUrlBlack": "/images/graphqlb.JPG",
 				"title": "GraphQl"
 			},
 			{
 				"imgUrl": "/images/javascript.jpg",
+				"imgUrlBlack": "/images/jsb.JPG",
 				"title": "JavaScript"
 			},
 			{
 				"imgUrl": "/images/jquery.jpg",
+				"imgUrlBlack": "/images/jqueryb.JPG",
+
 				"title": "JQuery"
 			},
 			{
 				"imgUrl": "/images/materialui.jpg",
+				"imgUrlBlack": "/images/materialuib.JPG",
+
 				"title": "Materiel UI"
 			},
 			{
 				"imgUrl": "/images/next.jpg",
+				"imgUrlBlack": "/images/nextb.JPG",
+
 				"title": "Next JS"
 			},
 			{
 				"imgUrl": "/images/nodejs.jpg",
+				"imgUrlBlack": "/images/nodeb.JPG",
+
 				"title": "Node JS"
 			},
 			{
 				"imgUrl": "/images/psql.jpg",
+				"imgUrlBlack": "/images/psqlb.JPG",
 				"title": "PSQL"
 			},
 			{
 				"imgUrl": "/images/react.jpg",
+				"imgUrlBlack": "/images/reactb.JPG",
 				"title": "React"
 			},
 			{
 				"imgUrl": "/images/redux.jpg",
+				"imgUrlBlack": "/images/reduxb.JPG",
+
 				"title": "Redux"
 			},
 			{
 				"imgUrl": "/images/sass.jpg",
+				"imgUrlBlack": "/images/sassb.JPG",
+
 				"title": "SASS"
 			},
 			{
 				"imgUrl": "/images/sementic.jpg",
+				"imgUrlBlack": "/images/sementicb.JPG",
+
 				"title": "Sementic UI"
 			},
 			{
 				"imgUrl": "/images/styledcompo.jpg",
+				"imgUrlBlack": "/images/styledcompob.JPG",
+
 				"title": "Styled-components"
 			},
 			{
 				"imgUrl": "/images/tailwind.jpg",
+				"imgUrlBlack": "/images/tailwindb.JPG",
+
 				"title": "TailWind"
 			},
 			{
 				"imgUrl": "/images/typescript.jpg",
+				"imgUrlBlack": "/images/tsb.JPG",
+
 				"title": "TypeScript"
 			}
 		],
@@ -145,30 +180,37 @@
 				"technos": [
 					{
 						"imgUrl": "/images/daisyui.jpg",
+						"imgUrlBlack": "/images/dblack.JPG",
 						"title": "Daisy UI"
 					},
 					{
 						"imgUrl": "/images/tailwind.jpg",
+						"imgUrlBlack": "/images/tailwindb.JPG",
 						"title": "TailWind"
 					},
 					{
 						"imgUrl": "/images/react.jpg",
+						"imgUrlBlack": "/images/reactb.JPG",
 						"title": "React"
 					},
 					{
 						"imgUrl": "/images/redux.jpg",
+						"imgUrlBlack": "/images/reduxb.JPG",
 						"title": "Redux"
 					},
 					{
 						"imgUrl": "/images/psql.jpg",
+						"imgUrlBlack": "/images/psqlb.JPG",
 						"title": "PSQL"
 					},
 					{
 						"imgUrl": "/images/next.jpg",
+						"imgUrlBlack": "/images/nextb.JPG",
 						"title": "Next JS"
 					},
 					{
 						"imgUrl": "/images/graphql.jpg",
+						"imgUrlBlack": "/images/graphqlb.JPG",
 						"title": "GraphQl"
 					}
 				]
@@ -180,19 +222,23 @@
 				"technos": [
 					{
 						"imgUrl": "/images/daisyui.jpg",
+						"imgUrlBlack": "/images/dblack.JPG",
 						"title": "Daisy UI"
 					},
 					{
 						"imgUrl": "/images/tailwind.jpg",
+						"imgUrlBlack": "/images/tailwindb.JPG",
 						"title": "TailWind"
 					},
 					{
 						"imgUrl": "/images/react.jpg",
+						"imgUrlBlack": "/images/reactb.JPG",
 						"title": "React"
 					},
 
 					{
 						"imgUrl": "/images/next.jpg",
+						"imgUrlBlack": "/images/nextb.JPG",
 						"title": "Next JS"
 					}
 				]

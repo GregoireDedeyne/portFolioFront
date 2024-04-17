@@ -1,6 +1,7 @@
 import { Skills } from "../components/Techno";
 import figma from "/images/logo-figma.png";
 import { data } from "../../data.json";
+import figmablack from "/images/figmablack.JPG?url";
 
 export function SkillsContainer() {
 	const outils = data.outils;
@@ -38,7 +39,11 @@ export function SkillsContainer() {
 				</div>
 				<div className="w-full flex items-center justify-center gap-2 sm:gap-3 md:gap-5 flex-wrap">
 					{" "}
-					<Skills imgUrl={figma} title={"Figma"} />
+					<Skills
+						imgUrl={figma}
+						title={"Figma"}
+						imgUrlBlack={figmablack}
+					/>
 				</div>
 				<div className="w-full flex flex-col items-center gap-3 lg:gap-10 mt-8">
 					<div className="relative w-full whitespace-nowrap flex flex-col items-center text-center">
@@ -55,7 +60,11 @@ export function SkillsContainer() {
 				<div className="w-3/5 flex items-center justify-center gap-2 sm:gap-3 md:gap-5 flex-wrap">
 					{" "}
 					{technos.map((techno) => (
-						<Skills imgUrl={techno.imgUrl} title={techno.title} />
+						<Skills
+							imgUrl={techno.imgUrl}
+							title={techno.title}
+							imgUrlBlack={techno.imgUrlBlack}
+						/>
 					))}
 				</div>
 				<div className="w-full flex flex-col items-center gap-3 lg:gap-10 mt-8">
@@ -71,7 +80,11 @@ export function SkillsContainer() {
 					</div>
 					<div className="w-full flex items-center justify-center gap-2 sm:gap-3 md:gap-5 flex-wrap">
 						{outils.map((outil) => (
-							<Skills imgUrl={outil.imgUrl} title={outil.title} />
+							<Skills
+								imgUrl={outil.imgUrl}
+								title={outil.title}
+								imgUrlBlack={outil.imgUrlBlack}
+							/>
 						))}
 					</div>
 				</div>

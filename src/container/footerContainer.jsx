@@ -4,7 +4,10 @@ export function Footer() {
 			{" "}
 			<div className="relative container mx-auto w-full py-[20px] sm:py-[40px] md:py-[60px] flex flex-col items-center text-theme-secondary">
 				<div className="w-full dark:bg-theme-primary bg-theme-secondary p-6 md:p-3 md:pr-10 rounded-3xl md:rounded-full flex md:flex-row flex-col items-center text-center justify-between gap-2 sm:gap-4 md:gap-6 flex-wrap">
-					<a href="#" className="text-xl ml-5">
+					<a
+						href="#"
+						className="text-xl ml-5 dark:text-black text-white"
+					>
 						{" "}
 						Gregoire Dedeyne{" "}
 					</a>

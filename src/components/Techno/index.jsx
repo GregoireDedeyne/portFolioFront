@@ -1,4 +1,4 @@
-export function Skills({ imgUrl, title }) {
+export function Skills({ imgUrl, title, imgUrlBlack }) {
 	return (
 		<div
 			width="46"
@@ -10,7 +10,11 @@ export function Skills({ imgUrl, title }) {
 				className="w-7 sm:w-10 lg:w-11 xl:w-auto object-contain hidden dark:block"
 				src={imgUrl}
 			/>
-			<p className="text-xs sm:text-base md:text-lg lg:text-xl xl:text-2xl font-medium text-black pr-1">
+			<img
+				className="w-7 sm:w-10 lg:w-11 xl:w-auto object-contain block dark:hidden"
+				src={imgUrlBlack}
+			/>
+			<p className="text-xs sm:text-base md:text-lg lg:text-xl xl:text-2xl font-medium dark:text-black text-white  pr-1">
 				{" "}
 				{title}{" "}
 			</p>

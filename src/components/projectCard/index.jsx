@@ -46,6 +46,7 @@ export function ProjectCard({ link, title, technos, imgUrl }) {
 								<Skills
 									imgUrl={techno.imgUrl}
 									title={techno.title}
+									imgUrlBlack={techno.imgUrlBlack}
 								/>
 							))}
 						</div>
