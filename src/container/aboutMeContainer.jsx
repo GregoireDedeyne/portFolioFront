@@ -79,18 +79,19 @@ export function AboutMeContainer() {
 						</div>
 					</div>{" "}
 					<div className="p-6 sm:p-8 lg:p-10 dark:bg-theme-white bg-theme-secondary dark:bg-opacity-5 bg-opacity-5 dark:text-theme-white text-theme-secondary text-sm sm:text-base lg:text-lg rounded-[40px] md:rounded-[40px] lg:rounded-[50px] leading-6 sm:leading-7 lg:leading-9">
-						Ancien formateur en reconversion professionnelle et
-						passionné par le métier de développeur web. Basé en
-						France et diplômé de chez O'clock, je suis animé par une
-						soif d'apprentissage et une passion pour la création
-						web. Bien que je n'aie pas encore d'expérience
-						professionnelle, je suis déterminé à acquérir les
-						compétences nécessaires pour exceller dans ce domaine.
-						Je suis particulièrement attiré par le développement
-						frontend et je suis prêt à investir le temps et l'effort
-						nécessaires pour maîtriser des technologies telles que
-						ReactJS, NextJS, Redux, TailwindCSS, SCSS, Material UI,
-						et bien d'autres encore.
+						Résidant dans le Nord, ancien coordinateur de formation
+						en reconversion professionnelle, je suis diplômé de chez
+						O'clock et passionné par le métier de développeur web.
+						Ne disposant pas encore d'une expérience professionnelle
+						dans le domaine, je suis particulièrement déterminé à
+						enrichir les savoirs et les compétences nécessaires à la
+						profession. En effet, le développement frontend et la
+						conception d’une application constituent des tâches pour
+						lesquelles j’éprouve un vif intérêt consolidé par la
+						formation O’clock. Je suis prêt et motivé à m’investir
+						dans cette voie et maîtriser les technologies telles que
+						ReactJS, Redux, TailwindCSS, SCSS, et bien d'autres
+						encore.
 					</div>
 				</div>
 			</div>
